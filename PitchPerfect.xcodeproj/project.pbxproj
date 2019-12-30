@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		381447D823BA355000A6C998 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381447D723BA355000A6C998 /* AppDelegate.swift */; };
 		381447DA23BA355000A6C998 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381447D923BA355000A6C998 /* SceneDelegate.swift */; };
-		381447DC23BA355000A6C998 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381447DB23BA355000A6C998 /* ViewController.swift */; };
+		381447DC23BA355000A6C998 /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381447DB23BA355000A6C998 /* RecordSoundsViewController.swift */; };
 		381447DF23BA355000A6C998 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 381447DD23BA355000A6C998 /* Main.storyboard */; };
 		381447E123BA355200A6C998 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 381447E023BA355200A6C998 /* Assets.xcassets */; };
 		381447E423BA355200A6C998 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 381447E223BA355200A6C998 /* LaunchScreen.storyboard */; };
+		381447EC23BA6D5000A6C998 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381447EB23BA6D5000A6C998 /* PlaySoundsViewController.swift */; };
+		381447EE23BA81F100A6C998 /* playsoundsviewcontroller-audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381447ED23BA81F100A6C998 /* playsoundsviewcontroller-audio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		381447D423BA355000A6C998 /* PitchPerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PitchPerfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		381447D723BA355000A6C998 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		381447D923BA355000A6C998 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		381447DB23BA355000A6C998 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		381447DB23BA355000A6C998 /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
 		381447DE23BA355000A6C998 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		381447E023BA355200A6C998 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		381447E323BA355200A6C998 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		381447E523BA355200A6C998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		381447EB23BA6D5000A6C998 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		381447ED23BA81F100A6C998 /* playsoundsviewcontroller-audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "playsoundsviewcontroller-audio.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				381447D723BA355000A6C998 /* AppDelegate.swift */,
 				381447D923BA355000A6C998 /* SceneDelegate.swift */,
-				381447DB23BA355000A6C998 /* ViewController.swift */,
+				381447DB23BA355000A6C998 /* RecordSoundsViewController.swift */,
 				381447DD23BA355000A6C998 /* Main.storyboard */,
 				381447E023BA355200A6C998 /* Assets.xcassets */,
 				381447E223BA355200A6C998 /* LaunchScreen.storyboard */,
 				381447E523BA355200A6C998 /* Info.plist */,
+				381447EB23BA6D5000A6C998 /* PlaySoundsViewController.swift */,
+				381447ED23BA81F100A6C998 /* playsoundsviewcontroller-audio.swift */,
 			);
 			path = PitchPerfect;
 			sourceTree = "<group>";
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				381447DC23BA355000A6C998 /* ViewController.swift in Sources */,
+				381447DC23BA355000A6C998 /* RecordSoundsViewController.swift in Sources */,
+				381447EE23BA81F100A6C998 /* playsoundsviewcontroller-audio.swift in Sources */,
 				381447D823BA355000A6C998 /* AppDelegate.swift in Sources */,
+				381447EC23BA6D5000A6C998 /* PlaySoundsViewController.swift in Sources */,
 				381447DA23BA355000A6C998 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
