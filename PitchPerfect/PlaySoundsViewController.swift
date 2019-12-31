@@ -50,9 +50,10 @@ class PlaySoundsViewController: UIViewController {
         
     }
 
-    @IBAction func stopButtonPressed(_ sneder: UIButton) {
-        print("Stop button pressed")
+    @IBAction func stopButtonPressed(_ sender: UIButton) {
+        stopAudio()
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -64,15 +65,4 @@ class PlaySoundsViewController: UIViewController {
         configureUI(.notPlaying)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
